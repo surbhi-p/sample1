@@ -1,0 +1,16 @@
+<!--<h1>This is for test.</h1>
+<br/>-->
+<div class="main">
+  <h1>Create list of Name</h1>
+  <div class="add">
+    <input [(ngModel)]="newItem" type="text" placeholder="Enter Name" class="addInput"> &nbsp;
+    <button (click) ="pushItem()" class="addBtn">AddName</button>
+  </div>
+  <ul>
+    <li *ngFor="let i of item; let ind=index">
+      {{i | uppercase}}
+      <span (click) = "popItem(ind)">x</span>
+    </li>
+  </ul>
+</div>
+<app-new-comp></app-new-comp>

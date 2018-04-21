@@ -1,0 +1,49 @@
+.main{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #d7d7d7;
+    border-bottom: 0px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    margin-top: 0px;
+    background-color: #5c8297;
+
+}
+.addInput{
+    margin: 10px;
+    width: 70%;
+    height: 30px;
+}
+.addBtn{
+    height: 40px;
+}
+.add{
+    position: relative;
+    padding-bottom: 10px;
+    height: 30px;
+}
+ul{
+    list-style: none;
+    font-size: 20px;
+    background-color: #686868;
+    margin-bottom: 0px;
+}
+li{
+    border-bottom: 1px solid #bfbfbf;
+    background-color: #d7d7d7;
+    padding: 10px  0px;
+    margin-left: -40px;
+    margin-bottom: 5px;
+}
+span{
+    color: red;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    margin-right: 10px;
+}
